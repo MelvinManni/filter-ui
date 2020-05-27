@@ -1,5 +1,85 @@
 body > div > div {
-    max-width: 320px;
+    min-width: 360px;
+    /* min-width: 280px; */
+}
+
+body > div > div > div{
+    min-width: 280px;
+    max-width: 300px;
+    box-shadow: 2px 0 0 1px rgb(220, 220, 220);
+}
+
+.card-body-main p, .card-body-main span, .card-body-main a{
+    display: inline;
+}
+
+.book-div, .mess-div{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.tag-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 237, 237);
+    border-radius: 15px;
+    width: max-content;
+    height: fit-content;
+    padding: 5px 14px;
+}
+
+.tag-div p{
+    font-size: 14px;
+    color: rgb(186, 180, 180);
+    margin: 0;
+}
+
+.stack-title h3{
+    font-size: 17px;
+}
+
+.md-avatar{
+    width: 70px;
+    height: 70px;
+}
+
+.name{
+    font-weight: 700;
+}
+
+.type{
+    width: max-content;
+    height: 30px;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.type p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+
+.pay p{
+    font-weight: 700;
+}
+.grey{
+    color: #666;
+}
+
+.blue{
+    color: #345DBB;
+}
+
+.white{
+    color: #fff;
 }
 
 .search-sect{
