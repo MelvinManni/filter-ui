@@ -6,7 +6,6 @@ body > div > div {
 body > div > div > div{
     min-width: 280px;
     max-width: 300px;
-    box-shadow: 2px 0 0 1px rgb(220, 220, 220);
 }
 
 .card-body-main p, .card-body-main span, .card-body-main a{
